@@ -1,0 +1,27 @@
+.holder {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+}
+
+ul li {
+  color: white;
+  font-family: Gordita;
+  list-style: none;
+  margin: 0 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: #FE77EA;
+  transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,18 @@
+.section1_content {
+  margin-left: 5%;
+  width: 60%;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: SamsungSharpSansBold;
+  padding-bottom: 25px;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  font-family: Gordita;
+  padding: 40px 0;
+}

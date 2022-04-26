@@ -1,0 +1,17 @@
+.start_building {
+  font-weight: bold;
+  background: rgb(181, 89, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(181, 89, 255, 1) 0%,
+    rgba(133, 172, 255, 1) 50%,
+    rgba(254, 119, 234, 1) 100%
+  );
+}
+
+.read_docs {
+  font-weight: bold;
+  background: -webkit-linear-gradient(rgb(181, 89, 255), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,28 @@
+.outer {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer_img {
+  width: 700px;
+  height: 688px;
+  left: 951px;
+  top: 135px;
+}
+
+.inner {
+  position: absolute;
+  top: 100px;
+  left: 20%;
+  height: fit-content;
+  width: fit-content;
+}
+
+.inner_img {
+  position: absolute;
+  width: 448.83px;
+  height: 498.33px;
+}

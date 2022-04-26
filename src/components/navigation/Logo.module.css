@@ -1,0 +1,8 @@
+.logo {
+  display: flex;
+  margin-left: 15px;
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  left: 0;
+}
