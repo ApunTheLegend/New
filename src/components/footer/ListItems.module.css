@@ -1,0 +1,16 @@
+.list {
+  font-family: Gordita;
+  font-size: 18px;
+  margin: 0 auto;
+  color: white;
+}
+
+.list li {
+  list-style: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.list li:hover {
+  transition: color 0.2s ease-in-out;
+  color: #85acff;
+}

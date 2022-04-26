@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  position: relative;
+  height: 650px;
+  width: 400px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out;
+  background: rgb(141, 115, 162);
+  background: radial-gradient(
+    circle,
+    rgba(141, 115, 162, 1) 0%,
+    rgba(67, 31, 101, 0.7794468129048494) 50%,
+    rgba(177, 82, 164, 1) 100%
+  );
+}
+
+.card:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.card_h4 {
+  position: absolute;
+  font-size: 42px;
+  top: 87px;
+  left: 40px;
+  font-family: SamsungSharpSansBold;
+  color: white;
+}
+
+.card_p {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  font-family: Gordita;
+  top: 207px;
+  left: 40px;
+}
+
+.top_left_img {
+  width: 155.09px;
+  height: 163px;
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+
+.bottom_img {
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  top: 370px;
+}

@@ -1,0 +1,15 @@
+.big_holder {
+  display: flex;
+  position: relative;
+  height: 750px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.big_holder img {
+  position: absolute;
+  width: 100%;
+  z-index: -10;
+}

@@ -1,0 +1,14 @@
+.holder {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 1000px;
+  width: 100%;
+}
+
+.holder img {
+  padding: 10% 0;
+  position: absolute;
+  width: 100%;
+  z-index: -10;
+}

@@ -4,6 +4,7 @@
   width: fit-content;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
 
 .outer_img {
@@ -19,6 +20,7 @@
   left: 20%;
   height: fit-content;
   width: fit-content;
+  z-index: 15;
 }
 
 .inner_img {

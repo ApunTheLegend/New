@@ -1,0 +1,20 @@
+.circle {
+  position: absolute;
+  display: flex;
+  border: 5px solid rgba(255, 255, 255);
+  height: 100px;
+  width: 100px;
+  top: 30px;
+  right: 30px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.circle p {
+  font-size: 16px;
+  font-family: Gordita;
+  text-align: center;
+  padding: 0 30px;
+}

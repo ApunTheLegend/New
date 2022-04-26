@@ -6,4 +6,20 @@
   justify-content: center;
   font-size: 16px;
   z-index: 50;
+  position: relative;
+}
+
+.top_right {
+  position: absolute;
+  width: 1390px;
+  height: 880px;
+  top: -78px;
+  left: 129px;
+  z-index: -50;
+}
+
+.top_left {
+  position: absolute;
+  left: 0;
+  z-index: -50;
 }

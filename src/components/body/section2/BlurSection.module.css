@@ -1,0 +1,35 @@
+.blur {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  height: 35%;
+  width: 61.9%;
+  position: absolute;
+  z-index: 40;
+  bottom: 295px;
+  left: 576px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+}
+
+.playHolder {
+  position: relative;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play {
+  position: absolute;
+}
+
+.playHolder, .play {
+  transition: transform 0.4s ease-in-out;
+}
+
+.playHolder:hover, .play:hover {
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+  transform: rotate(360deg);
+}

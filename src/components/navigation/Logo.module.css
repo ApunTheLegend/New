@@ -4,5 +4,12 @@
   height: fit-content;
   width: fit-content;
   position: absolute;
-  left: 0;
+  left: 10%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.1);
 }

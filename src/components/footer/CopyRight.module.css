@@ -1,0 +1,24 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: 250px;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.box h3 {
+  color: white;
+  font-size: 45px;
+  padding: 5px 0;
+  font-family: SamsungSharpSansBold;
+}
+
+.box p {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 5px 0;
+}

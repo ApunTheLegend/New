@@ -1,0 +1,24 @@
+.strip {
+  margin: 10% 0;
+  position: relative;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.strip img {
+  position: absolute;
+  z-index: -10;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.strip h3 {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Gordita;
+  font-size: 25px;
+  z-index: 10;
+}

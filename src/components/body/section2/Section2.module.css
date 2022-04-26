@@ -1,0 +1,24 @@
+.section_2 {
+  position: relative;
+  display: flex;
+  height: 1000px;
+  width: 100%;
+}
+
+.image1 {
+  position: absolute;
+  top: 150px;
+  left: 97px;
+}
+
+.image2 {
+  position: absolute;
+  top: 50px;
+  right: 250px;
+}
+
+.image3 {
+  position: absolute;
+  top: -50px;
+  z-index: -10;
+}
